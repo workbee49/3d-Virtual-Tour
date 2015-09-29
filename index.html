@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JIET JODHPUR </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+    </head>
+
+    <body>  
+        <!--DIV THAT 3D SCENES GET LOADED INTO-->
+        <div id="scene">
+            <div id="sectionExplorer"></div>
+        </div>
+    <body>  
+        <!--LOADING SCREEN, BAR HIDDEN IN CSS-->
+        <div id="progress">
+            <span id="message">Loading...</span>
+            <center>
+                <div id="progressBar" class="shadow"><div id="bar" class="shadow"></div></div>
+                <div id="start" class="disabled">START</div>
+            </center>
+        </div>
+
+        <!--THE 'HOME SCREEN' DIV, SHOWS GALLERY INFO-->
+        <div id="blocker">
+
+            <div id="leftPanel">
+              <div id="leftWrapper">
+              <div id="intro">
+              <img src="images/logo.png" />
+           
+              </div>
+              <br />
+              <div id="instructions">
+                <hr>
+                <br />
+                  <div class="click">
+                    <img src="images/click.svg" /> <p> Click anywhere on<br/ > the screen to start </p>
+                  </div>
+                  <div class="mouse">
+                    <img src="images/mouse.svg" /> <p> Move your mouse<br />to look around</p>
+                  </div>
+                  <div class="keyboard">
+                    <img src="images/keyboard.svg" /> <p> Use Q,W,E,A,S,D,<br/>Up Arrow, Down Arrow<br /> keys to move </p>
+                  </div>
+                                
+                   <div class="esc">
+                    <img src="images/esc.svg" /> <p> Press Escape to<br />show home screen </p>
+                  </div>
+				  
+				 
+                  <br />
+                  <br />
+                  
+                  </div>
+              <div class ="Credits">
+				  <p>Developed by :-<br/>Yogesh k. Purohit, Shubham Singh & Vashistha Gehlot<br /> CSE DEPARTMENT</p>
+				 </div>
+            </div>
+            </div>
+
+            <div id="rightPanel">
+               
+              <h1> JIET 3D VIRTUAL TOUR </h1>
+             </div>
+
+        </div>
+
+        <!--KEYBOARD CONTROL GUI BOTTOM RIGHT-->
+        <div id="keyGUI">
+            <div id="q" class="key">Q<br /><span class="key-info">Turn Left</span></div><div id="w" class="key">W<br /><span class="key-info">Forward</span></div><div id="e" class="key">E<br /><span class="key-info">Turn Right</span></div> <br />
+            <div id="a" class="key">A<br /><span class="key-info">Move Left</span></div><div id="s" class="key">S<br /><span class="key-info">Backwards</span></div><div id="d" class="key">D<br /><span class="key-info">Move Right</span></div>
+             <div id='up' class ="key"> UP <br/><span class ="key-info"> Move  Up </span></div><div id='down' class ="key"> DOWN <br/><span class ="key-info"> Move  Down </span></div>
+	   </div>
+
+
+        <script src="js/three.min.js"></script>
+        <script src="js/detector.js"></script>
+        <script src="js/stats.min.js"></script>
+        <script src="js/PointerLockControls.js"></script>
+      
+        <script src="js/loaders/ColladaLoader.js"></script>
+     
+	 
+	  <script src="main.js"></script>
+      
+
+    </body>
+</html>
