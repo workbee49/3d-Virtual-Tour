@@ -19,7 +19,7 @@
 				
 				"Jietl" : {
 					"type": "dae",
-					"url" : "models/untitled.dae",
+					"url" : "models/JIET.dae",
 					"position" : [ -1500, 0, 1500 ],
 					"rotation" : [ -1.57, 0, 0 ],
 					"scale"	   : [ 1, 1, 1 ],
